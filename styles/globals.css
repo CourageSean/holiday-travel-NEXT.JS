@@ -1,16 +1,59 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Mulish:wght@200;300;400;500;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+*{
   box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  
+  width: 75%;
+  margin: auto;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+}
+nav ul li{
+  padding: 0 13px;
+  margin: 0 3px;
+  font-family: "Inter";
+  color: #b8becd;
+}
+nav ul li button{
+   width: 150px; 
+  padding: 11px 10px;
+  border:2px solid #fb8f1d;
+  border-radius: 10px;
+ font-size: 1.05rem;
+}
+
+
+.first-btn{
+  color:  #fb8f1d;
+  background: #fff;
+}
+.second-btn{
+  color:  #fff;
+  background: #fb8f1d;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+.hero-container h1{
+  font-family: "Playfair Display";
+  font-size: 3.5rem;
+}
+
+.hero-img-wrapper img{
+  width: 100%;
+}
+.hero-img-wrapper{
+  width: 45%;
 }
