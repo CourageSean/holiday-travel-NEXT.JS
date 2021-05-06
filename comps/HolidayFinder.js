@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function HolidayFinder() {
+export default function HolidayFinder({onHandleExplore,onChangeLocation,onChangeActivity}) {
 
 
   return (

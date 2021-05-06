@@ -57,3 +57,7 @@ nav ul li button{
 .hero-img-wrapper{
   width: 45%;
 }
+
+#footer-nav{
+  display: flex;
+}
